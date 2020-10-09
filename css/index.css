@@ -156,10 +156,14 @@ button:hover{
         width: 90%;
         height: auto;
         padding: 15%;
+        margin: 4% 0 2% 0;
     }
     h1{
         font-size: 3.6rem;
         /* margin:; */
+    }
+    hr{
+        margin-bottom: 2%;
     }
     
 /* body */
