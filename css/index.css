@@ -79,7 +79,7 @@ nav a{
 }
 nav span{
     border-left:3px solid #626262;
-
+    margin: 0 5%;
 }
 /*Title Section Styles*/
 .title-container{
@@ -139,11 +139,9 @@ button:hover{
 /* it's @media time! */
 
 @media(max-width: 500px){
-    section, div, img, span, a, button, h1, p{
-        border: 1px dotted tomato;
-    }
-
-
+    /* section, div, img, span, a, button, p{
+        /* border: 1px dotted tomato; 
+    } */
     nav{
         display: flex;
         align-items: center;
@@ -153,33 +151,46 @@ button:hover{
         height: 70%;
     }
     .title-container div{
-        width: auto;
         /* background-position: center center; */
         background-size: cover;
+        width: 90%;
+        height: auto;
+        padding: 15%;
     }
     h1{
-        font: size 4;rem;
-        margin:;
+        font-size: 3.6rem;
+        /* margin:; */
     }
     
 /* body */
     .artists-container{
         display: flex;
         flex-direction: column;
+        /* justify-content: center; */
         align-items: center;
         height: auto; /*this worked for img tags below, figure out how to with div background image*/
+        width: 66%;
     }
     .bio{
         font-size: 1rem;
+         /* this doesn't work*/
     }
     .artist{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .artist img{
         width: 50%;
         height: auto;
     }
-
+    nav a {
+        font-size: 2rem;
+    }
+    .artists-container a {
+        font-size: 1.25rem;
+    }
 
 
 
